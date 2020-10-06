@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="1" customClass="NumberInputView">
+            <rect key="frame" x="0.0" y="0.0" width="722" height="352"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+            <subviews>
+                <view alpha="0.55000000000000004" contentMode="scaleToFill" id="I15-Za-ONm" userLabel="View - BG Color">
+                    <rect key="frame" x="0.0" y="0.0" width="722" height="352"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <color key="backgroundColor" red="0.70588235294117641" green="0.72156862745098038" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="Nah-D3-Xms" userLabel="View - NumberKey">
+                    <rect key="frame" x="188" y="0.0" width="346" height="352"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fUR-3U-wcK">
+                            <rect key="frame" x="0.0" y="10" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="One"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="1" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="wju-cY-KVJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JV6-sY-Ogr">
+                            <rect key="frame" x="0.0" y="96" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Four"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="4" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="vqD-gt-D5D"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jYZ-Lf-J5j">
+                            <rect key="frame" x="0.0" y="182" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Seven"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="7" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="YfT-3z-pVt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Wf7-xV-pka">
+                            <rect key="frame" x="120" y="10" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Two"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="2" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="veB-xt-rnr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BZC-sL-jHO">
+                            <rect key="frame" x="120" y="96" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Five"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="5" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="EyB-jX-8Ci"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="i9h-WF-taO">
+                            <rect key="frame" x="120" y="182" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Eight"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="8" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="W7z-SU-2Bb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2Ty-om-JCT">
+                            <rect key="frame" x="120" y="268" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Zero"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="0" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="jh0-Bu-kbn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K9B-4z-Rq4">
+                            <rect key="frame" x="240" y="10" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Three"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="3" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="hHt-S1-qaK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZMP-0C-Anz">
+                            <rect key="frame" x="240" y="96" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Six"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="6" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="2hq-ih-7qk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WJe-DO-RoA">
+                            <rect key="frame" x="240" y="182" width="106" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Nine"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="9" backgroundImage="NumberInputViewKey.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="NumberInputViewKeyGray.png"/>
+                            <connections>
+                                <action selector="userDidTapKey:" destination="1" eventType="touchUpInside" id="nBV-ta-bQu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Vjs-Bi-wiF" userLabel="Button - BS">
+                            <rect key="frame" x="240" y="267" width="106" height="76"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration" label="Backspace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" image="NumberInputViewBsKeyWhite.png" backgroundImage="NumberInputViewKeyGray.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="NumberInputViewBsKeyBlack.png" backgroundImage="NumberInputViewKey.png"/>
+                            <connections>
+                                <action selector="userDidTapBackspace:" destination="1" eventType="touchUpInside" id="Kyu-1V-QyI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eYd-gM-or0" userLabel="Button - CL">
+                    <rect key="frame" x="604" y="267" width="106" height="76"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <accessibility key="accessibilityConfiguration" label="Decimal point"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" image="NumberInputViewKeyboard.png" backgroundImage="NumberInputViewKeyGray.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="NumberInputViewKey.png"/>
+                    <connections>
+                        <action selector="userDidTapClose:" destination="1" eventType="touchUpInside" id="mIn-wi-puz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backspaceKey" destination="Vjs-Bi-wiF" id="orC-IX-IWk"/>
+                <outletCollection property="numberButtonCollection" destination="fUR-3U-wcK" id="Gdv-We-GU2"/>
+                <outletCollection property="numberButtonCollection" destination="JV6-sY-Ogr" id="ydT-nj-xlx"/>
+                <outletCollection property="numberButtonCollection" destination="jYZ-Lf-J5j" id="mva-Hj-hfI"/>
+                <outletCollection property="numberButtonCollection" destination="Wf7-xV-pka" id="Ecs-7q-nGm"/>
+                <outletCollection property="numberButtonCollection" destination="BZC-sL-jHO" id="aqd-rn-Loj"/>
+                <outletCollection property="numberButtonCollection" destination="i9h-WF-taO" id="kgO-g8-e3f"/>
+                <outletCollection property="numberButtonCollection" destination="2Ty-om-JCT" id="YQr-Vb-a62"/>
+                <outletCollection property="numberButtonCollection" destination="K9B-4z-Rq4" id="KIn-1C-Dcl"/>
+                <outletCollection property="numberButtonCollection" destination="ZMP-0C-Anz" id="VZF-LY-S9Z"/>
+                <outletCollection property="numberButtonCollection" destination="WJe-DO-RoA" id="8H0-Ov-SWV"/>
+                <outletCollection property="operationButtonCollection" destination="Vjs-Bi-wiF" id="Ali-RS-13G"/>
+                <outletCollection property="operationButtonCollection" destination="eYd-gM-or0" id="ht5-ow-Md0"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="NumberInputViewBsKeyBlack.png" width="37" height="27"/>
+        <image name="NumberInputViewBsKeyWhite.png" width="37" height="27"/>
+        <image name="NumberInputViewKey.png" width="106" height="75"/>
+        <image name="NumberInputViewKeyGray.png" width="106" height="75"/>
+        <image name="NumberInputViewKeyboard.png" width="48" height="42"/>
+    </resources>
+</document>
