@@ -34,8 +34,8 @@
 }
 
 - (IBAction)LoginBtn:(id)sender {
-    self.UserIdText.text = @"nakayama0152";
-    self.UserPwText.text = @"1050900509";
+    self.UserIdText.text = @"";
+    self.UserPwText.text = @"";
     NSString *userId = self.UserIdText.text;
     NSString *userPw = self.UserPwText.text;
     
